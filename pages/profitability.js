@@ -7,7 +7,6 @@ import Button from '../components/Button'
 import Sample from '../components/Sample'
 import Features from '../components/Features'
 import Join from '../components/Join'
-import Intercom from 'react-intercom';
 import Examples from '../components/Examples'
 import { useState, useEffect } from 'react'
 
@@ -43,9 +42,6 @@ export default function Home(props) {
       </div>
       <Join title = "We'd love for you to join us" explain = "Atlas is a startup, and we're growing fast. We'd love to have you join us and give feedback on how to improve our system. Help us change investing.">
       </Join>
-      <div className="app">
-        <Intercom appID="mokppp47" { ...user } />
-      </div>
     </>
   )
 }

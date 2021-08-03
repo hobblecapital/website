@@ -19,8 +19,9 @@ export default function Navbar(props) {
 		        <div className="hidden sm:block sm:ml-6 justify-center">
 		          <div className="flex space-x-8">
 	            	<a href = '/' className = {props.className}>Home</a>
-		    	    <Link href = 'mailto:support@atlasfinance.org'><a className = {props.className}>Contact</a></Link>
-		    	    <Link className = 'text-blue-800' href = 'https://dashboard.atlasfinance.org/sign-up.php'><a className = {props.joinClass}>Join Free →</a></Link>
+			    	    <Link href = 'mailto:support@atlasfinance.org'><a className = {props.className}>Contact</a></Link>
+			    	    <Link href = 'https://guides.atlasfinance.org'><a className = {props.className}>Guides</a></Link>
+			    	    <Link className = 'text-blue-800' href = 'https://dashboard.atlasfinance.org/sign-up.php'><a className = {props.joinClass}>Join Free →</a></Link>
 		          </div>
 		        </div>
 	      </div>
